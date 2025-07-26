@@ -64,13 +64,13 @@ export function StackedExperiences() {
 
   return (
     <div className="relative w-full">
-      <div className="hidden md:block fixed left-8 top-1/2 transform -translate-y-1/2 -translate-y-32 z-50">
+      <div className="hidden xl:block fixed left-8 top-1/2 transform -translate-y-1/2 -translate-y-32 z-50">
         <div className="text-gray-600 font-mono text-sm tracking-widest">
           ITINERARY
         </div>
       </div>
 
-      <div className="hidden md:flex fixed left-8 top-1/2 transform -translate-y-1/2 flex-col space-y-8 z-50">
+      <div className="hidden xl:flex fixed left-8 top-1/2 transform -translate-y-1/2 flex-col space-y-8 z-50">
         <div 
           className="absolute left-2 w-0.5 transform -translate-x-1/2"
           style={{
